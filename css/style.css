@@ -1,24 +1,69 @@
 body {
-    
-    background-image: url("../img/bg3.jpg");
+    background: linear-gradient(to left,rgb(51, 51, 51),black);
+}
+
+h1 {
+  animation-name: parpadeo;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes parpadeo {
+    0%   {opacity: 0;}
+    25%  {opacity: 0.25;}
+    50%  {opacity: 0.5;}
+    75%  {opacity: 0.75;}
+    100% {opacity: 1;}
+}
+
+.Cabecera {
+  background: linear-gradient(to bottom right,black, rgb(51, 51, 51));
 }
 
 .Contenido {
+  background-image: url("../img/bg3.jpg");
   text-align: center;
 
   font-size: 120%;
-  color: 	#2F4F4F;
+  color: 	#ff6600;
 }
 
 .Informacion {
 
-  background-color: white;
+  background: linear-gradient(to bottom right,black, rgb(51, 51, 51));
   border-style: inset;
   border-width: 10px;
+  border-color: #eaeae1;
 }
 
 
 
+.Lista {
+  background-color: gray;
+  color: white;
+}
+
+.Imagenes {
+  margin: 50px 0px 50px 0px;
+}
+
+.Logo {
+  margin: auto;
+}
+
 .Navegacion {
-  background-color: white;
+  border-style: dashed;
+  border-color: white;
+}
+
+.FinalPagina {
+  background: linear-gradient(to left, rgb(51, 51, 51), black);
+}
+
+footer {
+  border-radius: 25px;
+  border: 2px solid #ff6600;
+  margin-top: 50px;
 }
