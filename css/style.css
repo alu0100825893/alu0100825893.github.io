@@ -1,6 +1,24 @@
-div {
-  
-    border-color: green;
-    border: 2px solid;
-    border-radius: 8px;
+body {
+    
+    background-image: url("../img/bg3.jpg");
+}
+
+.Contenido {
+  text-align: center;
+
+  font-size: 120%;
+  color: 	#2F4F4F;
+}
+
+.Informacion {
+
+  background-color: white;
+  border-style: inset;
+  border-width: 10px;
+}
+
+
+
+.Navegacion {
+  background-color: white;
 }
